@@ -120,7 +120,7 @@ export default function Home() {
                   GitHub
                 </a>
               </div>
-              <a href="https://drive.google.com/file/d/1IuhUuDqRUl3GMRlxAcODkEX9-xE0Zhsy/view?usp=sharing" target="_blank" rel="noopener noreferrer" className="w-full flex items-center justify-center gap-2 bg-[#161618] border border-[#232326] hover:border-[#52525B] px-4 py-2.5 rounded-xl text-sm font-medium hover:bg-[#1f1f22] transition-all text-[#a1a1aa] hover:text-white mt-1">
+              <a href="https://drive.google.com/file/d/1ienCcMtcDprapzcDJDT5nROwrOIRZVN4/view?usp=sharing" target="_blank" rel="noopener noreferrer" className="w-full flex items-center justify-center gap-2 bg-[#161618] border border-[#232326] hover:border-[#52525B] px-4 py-2.5 rounded-xl text-sm font-medium hover:bg-[#1f1f22] transition-all text-[#a1a1aa] hover:text-white mt-1">
                 <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}><path strokeLinecap="round" strokeLinejoin="round" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" /></svg>
                 Resume
               </a>
