@@ -1,0 +1,36 @@
+@import "tailwindcss";
+
+@theme {
+  --animate-marquee: marquee 50s linear infinite;
+  --animate-marquee-reverse: marquee-reverse 50s linear infinite;
+
+  @keyframes marquee {
+    0% {
+      transform: translateX(0%);
+    }
+
+    100% {
+      transform: translateX(calc(-50% - 10px));
+    }
+  }
+
+  @keyframes marquee-reverse {
+    0% {
+      transform: translateX(calc(-50% - 10px));
+    }
+
+    100% {
+      transform: translateX(0%);
+    }
+  }
+}
+
+:root {
+  --background: #000000;
+  --foreground: #ffffff;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+}
