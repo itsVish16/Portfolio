@@ -413,7 +413,7 @@ export default function ProjectModal({
                       }}
                     >
                       <iframe
-                        src="https://thinkaloudai.vishal-saini.me/"
+                        src="https://thinkaloudai.tech/"
                         title="ThinkAloud.ai - Live Demo"
                         className="w-full h-full border-0"
                         style={{ minHeight: "calc(92vh - 160px)" }}
