@@ -254,6 +254,22 @@ export default function Home() {
           <SectionHeader title="Certifications" />
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mt-2">
             {([
+               {
+                title: "AI CloudOps Engineer",
+                org: "Nebius",
+                desc: "Certified in AI CloudOps with expertise in GPU cluster management, environment deployment, access control, system monitoring, troubleshooting, and maintaining reliable AI cloud infrastructure.",
+                issued: "2026",
+                verifyUrl: "https://www.credly.com/badges/6df7862f-f4b8-4090-b9fe-70b870002ab3/public_url",
+                image: "/AI_CloudOps_Engineer.png",
+              },
+              {
+                title: "Agentic AI Builder",
+                org: "Nebius",
+                desc: "Certified in building agentic AI applications with Nebius Token Factory, including RAG pipelines, AI model integration, fine-tuning, and external tool connectivity for end-to-end AI workflows.",
+                issued: "2026",
+                verifyUrl: "https://www.credly.com/badges/d53739aa-aaf5-49e8-bf6a-895fd7459d9d/public_url",
+                image: "/Agentic_AI_Builder.png",
+              },
               {
                 title: "Fine-tuning & RL for LLMs: Intro to Post-training",
                 org: "DeepLearning.AI",
